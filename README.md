@@ -1,3 +1,3 @@
 # My Resume
 
-[Profile Link](https://devimam.github.io/automata/)
+[Visit My Profile](https://devimam.github.io/profile/)
