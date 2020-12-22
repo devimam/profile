@@ -132,3 +132,13 @@ ul{
 .ac_proj{
 	color:#99ebff;
 }
+
+
+/* hiding the copyright div panel */
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
