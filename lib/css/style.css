@@ -1,0 +1,92 @@
+/*
+Title: Resume of Mohammad Imam Hossain
+Author: Mohammad Imam Hossain
+Date: 12/08/2021
+All rights reserved.
+*/
+
+.uppersection {
+    height: 25px;
+}
+
+.upperleft,
+.mainleft {
+    background-color: #E0FFFF;
+}
+
+.titlesection {
+    min-height: 115px;
+    color: #18474e;
+    background-color: #B0E0E6;
+}
+
+.subtitle {
+    color: #1e5962;
+}
+
+.titleright {
+    background-color: white;
+    border-top: 1px solid #51bac8;
+    border-bottom: 1px solid #51bac8;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mainsection {
+    min-height: calc(100vh - 150px);
+    color: #18474e;
+}
+
+.sectionhead {
+    border-bottom: 2px solid #18474e;
+    padding: 8px 0px;
+    width: 70%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.iconcls {
+    padding: 8px 12px 8px 0px;
+}
+
+.headcls {
+    display: inline-block;
+    border-bottom: 2px solid #18474e;
+    padding: 8px 0px;
+    width: 70%;
+}
+
+.rightcontent {
+    padding-left: 40px;
+}
+
+.office {
+    color: #808080;
+    font-weight: bold;
+}
+
+.office a:hover {
+    color: #18474e;
+}
+
+
+/* hiding the copyright div panel */
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
